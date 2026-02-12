@@ -50,9 +50,7 @@ function App() {
       scrollToSection(aboutRef);
     } else if (section === 'products') {
       window.location.href = config.links.products;
-    } else if (section === 'payment') {
-      window.location.href = config.links.payment;
-    }
+    } 
   };
 
   return (
@@ -68,9 +66,7 @@ function App() {
             <button onClick={() => handleNavClick('products')} className="nav-link">
               Products
             </button>
-            <button onClick={() => handleNavClick('payment')} className="nav-link">
-              Payment
-            </button>
+            
             <button onClick={() => handleNavClick('about')} className="nav-link">
               About
             </button>
@@ -149,13 +145,7 @@ function App() {
           >
             Product Page
           </button>
-          <button 
-            onClick={() => window.location.href = config.links.payment}
-            className="cta-button cta-secondary"
-          >
-            <span className="cta-icon">💳</span>
-            Proceed to Payment
-          </button>
+        
         </div>
       </section>
 

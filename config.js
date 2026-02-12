@@ -18,8 +18,7 @@ const config = {
   
   // Navigation Links
   links: {
-    products: "/products",
-    payment: "/payment",
+    products: "https://www.nellanickalcommercium.com/product-page/",
     about: "#about"
   },
   
