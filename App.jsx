@@ -52,7 +52,6 @@ function App() {
       window.location.href = config.links.products;
     } 
   };
-
   return (
     <div className="app">
       {/* Header */}
