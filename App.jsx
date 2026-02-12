@@ -194,7 +194,6 @@ function App() {
               <div className="footer-column">
                 <h4>Navigation</h4>
                 <button onClick={() => handleNavClick('products')}>Products</button>
-                <button onClick={() => handleNavClick('payment')}>Payment</button>
                 <button onClick={() => handleNavClick('about')}>About</button>
               </div>
               <div className="footer-column">
