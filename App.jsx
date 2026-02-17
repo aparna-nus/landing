@@ -58,7 +58,7 @@ function App() {
       <header className="header">
         <div className="header-container">
           <div className="logo">
-            <div className="logo-icon"></div>
+          <div className="logoIcon" ><img src="/logo.png" alt="Logo" className="logo-icon" /></div>
             <span className="logo-text">{config.companyName}</span>
           </div>
           <nav className="nav">
