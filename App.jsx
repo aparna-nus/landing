@@ -197,8 +197,8 @@ function App() {
               </div>
               <div className="footer-column">
                 <h4>Contact</h4>
-                <p>Kerala, India</p>
-                <p>info@nellanickal.com</p>
+                <p>+91 7559900001</p>
+                <p>nellanickalcommercium@gmail.com</p>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ const config = {
   
   // About Section
   about: {
-    description: "Nellanickal Commercium is a Kerala-based export house focused on reliable sourcing and global distribution. Founded by Jacob Nellanickal, the company specialises in connecting high-quality products from India to international markets through streamlined logistics, transparent communication, and dependable delivery standards. From product sourcing and packaging to documentation and shipment coordination, our goal is simple: make global trade smooth, efficient, and trustworthy for every partner we work with."
+    description: "Nellanickal Commercium is a Kerala-based export house focused on reliable sourcing and global distribution. The company specialises in connecting high-quality products from India to international markets through streamlined logistics, transparent communication, and dependable delivery standards. From product sourcing and packaging to documentation and shipment coordination, our goal is simple: make global trade smooth, efficient, and trustworthy for every partner we work with."
   },
   
   // Color Scheme
