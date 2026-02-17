@@ -3,6 +3,9 @@ import Lottie from 'lottie-react';
 import './App.css';
 import config from './config';
 import shipAnimation from './ship.json';
+import logo from "./logo.png"; 
+
+
 
 function App() {
   const [counts, setCounts] = useState({
@@ -58,7 +61,7 @@ function App() {
       <header className="header">
         <div className="header-container">
           <div className="logo">
-          <div className="logoIcon" ><img src="/logo.png" alt="Logo" className="logo-icon" /></div>
+          <div className="logoIcon" ><img src={logo} alt="Logo" /></div>
             <span className="logo-text">{config.companyName}</span>
           </div>
           <nav className="nav">
