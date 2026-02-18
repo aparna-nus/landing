@@ -196,10 +196,7 @@ function App() {
         <div className="footer-container">
           <div className="footer-top">
             <div className="footer-brand">
-              <div className="footer-logo">
-                <div className="logo-icon"></div>
-                <span className="logo-text">{config.companyName}</span>
-              </div>
+             
               <p className="footer-tagline">{config.tagline}</p>
             </div>
             <div className="footer-links">
