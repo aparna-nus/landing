@@ -19,7 +19,12 @@ const config = {
   // Navigation Links
   links: {
     products: "https://shop.nellanickalcommercium.com/category/all-products",
-    about: "#about"
+    about: "#about", 
+    privacy: "https://shop.nellanickalcommercium.com/privacypolicy",
+    shipping: "https://shop.nellanickalcommercium.com/shipping",
+    accessibility: "https://shop.nellanickalcommercium.com/accessibility",
+    terms: "https://shop.nellanickalcommercium.com/terms",
+    refund: "https://shop.nellanickalcommercium.com/refund"
   },
   
   // About Section

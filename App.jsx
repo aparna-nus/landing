@@ -53,7 +53,17 @@ function App() {
       scrollToSection(aboutRef);
     } else if (section === 'products') {
       window.location.href = config.links.products;
-    } 
+    } else if (section === 'privacy') {
+      window.location.href = config.links.privacy;
+    } else if (section === 'shipping') {
+      window.location.href = config.links.shipping;
+    } else if (section === 'accessibility') {
+      window.location.href = config.links.accessibility;
+    } else if (section === 'terms') {
+      window.location.href = config.links.terms;
+    } else if (section === 'refund') {
+      window.location.href = config.links.refund;
+    }
   };
   return (
     <div className="app">
@@ -195,8 +205,11 @@ function App() {
             <div className="footer-links">
               <div className="footer-column">
                 <h4>Navigation</h4>
-                <button onClick={() => handleNavClick('products')}>Products</button>
-                <button onClick={() => handleNavClick('about')}>About</button>
+                <button onClick={() => handleNavClick('privacy')}>Privacy Policy</button>
+                <button onClick={() => handleNavClick('shipping')}>Shipping Policy</button>
+                <button onClick={() => handleNavClick('accessibility')}>Accessibility Statement</button>
+                <button onClick={() => handleNavClick('terms')}>Terms & Conditions</button>
+                <button onClick={() => handleNavClick('refund')}>Refund Policy</button>
               </div>
               <div className="footer-column">
                 <h4>Contact</h4>
