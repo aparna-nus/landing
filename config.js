@@ -22,7 +22,6 @@ const config = {
     about: "#about", 
     privacy: "https://shop.nellanickalcommercium.com/privacypolicy",
     shipping: "https://shop.nellanickalcommercium.com/shipping",
-    accessibility: "https://shop.nellanickalcommercium.com/accessibility",
     terms: "https://shop.nellanickalcommercium.com/terms",
     refund: "https://shop.nellanickalcommercium.com/refund"
   },
